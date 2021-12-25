@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Body mass index</title>
+</head>
+<body>
+<form>
+    <label for="height">Рост в см:</label>
+    <br>
+    <input type="text" id="height" name="height" maxlength="3">
+    <br><br>
+    <label for="weight">Вес в кг:</label>
+    <br>
+    <input type="text" id="weight" name="weight" maxlength="3">
+    <br><br>
+    <button type="submit" name="calculateBtn" id="calculateBtn">Рассчитать</button>
+    <p id="result" style="display: none; border: 1px solid #33cc66; width: fit-content; padding: 10px;"></p>
+</form>
+
+<ul style="margin-left: 0; padding: 0;">
+    <li style="text-align: justify;">
+        <h3><span style="color:#FFFFFF;"><strong><span style="background-color:#6699cc;">&nbsp;16 и менее&nbsp;</span></strong><strong><span style="background-color:#6699cc;">►&nbsp;</span> </strong></span><strong>Выраженный дефицит массы тела</strong>;</h3>
+    </li>
+    <li style="text-align: justify;">
+        <h3><span style="color:#FFFFFF;"><strong><span style="background-color:#339966;">&nbsp;16 – 18,5&nbsp; &nbsp; &nbsp;&nbsp;</span></strong><strong><span style="background-color:#339966;">►&nbsp;</span>&nbsp;</strong></span><strong>Недостаточная масса тела (дефицит)</strong>;</h3>
+    </li>
+    <li style="text-align: justify;">
+        <h3><span style="color:#FFFFFF;"><strong><span style="background-color:#33cc66;">&nbsp;18,5 – 25&nbsp; &nbsp; &nbsp;</span></strong><strong><span style="background-color:#33cc66;">►&nbsp;</span>&nbsp;</strong></span><strong>Норма</strong>;</h3>
+    </li>
+    <li style="text-align: justify;">
+        <h3><span style="color:#FFFFFF;"><strong><span style="background-color:#00cc00;">&nbsp;25 – 30&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</span></strong><strong><span style="background-color:#00cc00;">►&nbsp;</span>&nbsp;</strong></span><strong>Избыточная масса тела (состояние, предшествующее ожирению)</strong>;</h3>
+    </li>
+    <li style="text-align: justify;">
+        <h3><span style="color:#FFFFFF;"><strong><span style="background-color:#ff6600;">&nbsp;30 – 35&nbsp; &nbsp; &nbsp; &nbsp;</span></strong><strong><span style="background-color:#ff6600;">►&nbsp;</span>&nbsp;</strong></span><strong>Ожирение 1-й степени</strong>;</h3>
+    </li>
+    <li style="text-align: justify;">
+        <h3><span style="color:#FFFFFF;"><strong><span style="background-color:#ff3300;">&nbsp;35 – 40&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</span></strong><strong><span style="background-color:#ff3300;">►&nbsp;</span>&nbsp;</strong></span><strong>Ожирение 2-й степени</strong>;</h3>
+    </li>
+    <li style="text-align: justify;">
+        <h3><strong><span style="color:#FFFFFF;"><span style="background-color:#FF0000;">&nbsp;40 и более&nbsp;►&nbsp;</span></span></strong> <strong>Ожирение 3-й степени</strong>.</h3>
+    </li>
+</ul>
+
+<script src="index.js"></script>
+</body>
+</html>
